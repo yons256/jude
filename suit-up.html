@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Submit Form</title>
+  <link rel="stylesheet" href="assignment.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .topnav {
+      background:black;
+      overflow: hidden;
+      padding: 10px 0;
+    }
+    .topnav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+    }
+    .topnav a:hover {
+      background: #575757;
+    }
+    .heading {
+      margin: 50px 0;
+      font-size: 24px;
+    }
+    .form-container {
+      background: #fff;
+      padding: 20px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+      margin: auto;
+    }
+    .form-group {
+      margin-bottom: 15px;
+      text-align: left;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="assignment.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="suit-up.html">Suit-up</a>
+        <a href="contactus.html">Contact Us</a>
+        
+        <h1>YIGA-STYLESSS</h1>
+    </div>
+    
+    <div class="heading">
+        
+        <h2>READY TO START YOUR JOURNEY IN ELEGANCE? JUST FILL IN THIS FORM!!!</h2>
+    </div>
+    
+    <div class="form-container">
+        <h2>Submit Form</h2>
+        <form action="your-action-url" method="post">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" placeholder="Enter your age" required>
+          </div>
+          <div class="form-group">
+            <label for="size">Size</label>
+            <select id="size" name="size" required>
+              <option value="" disabled selected>Select your size</option>
+              <option value="xs">XS</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">XL</option>
+              <option value="xxl">XXL</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="telephone">Telephone Number</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter your telephone number" required>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

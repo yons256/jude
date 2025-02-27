@@ -1,0 +1,50 @@
+.ex1{color: #990011;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: larger;}
+.ex2{display: inline-block;}
+
+body{color: #990011;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: larger;}
+
+button{color:beige;
+box: sizing 12px;
+font-size:large;
+font-family:cursive;
+padding: 10px 24px;
+background-color:#990011;
+
+}
+
+.topnav {
+    background-color:black ;
+    overflow: hidden;}
+
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;}
+
+        .topnav a:hover {
+            background-color:red;
+            color:whitesmoke;}
+            
+            .topnav a.active {
+                background-color: #B85042;
+                color: white;
+                float:left;
+              }
+
+              
+              .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+              }
+
+              .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+
+              div{color: #990011;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
